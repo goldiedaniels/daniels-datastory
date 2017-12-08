@@ -1,0 +1,46 @@
+h1 {background: #573544;
+  color: blue;
+  font-size: 32px;}
+h1 {
+  min-height: 250px;
+  margin-bottom: 15px;
+}
+
+section#personal div,
+section#social div,
+section#resources div {
+  min-height: 250px;
+  margin-bottom: 15px;
+}
+section#personal div {
+  background: #573544;
+  color: white;
+  font-size: 32px;
+}
+section#social div {
+  background: #8CBEB2;
+  color: white;
+  font-size: 32px;
+}
+section#resources div {
+  background: #F2EBBF;
+  color: brown;
+  font-size: 32px;
+}
+
+/* GRID/LAYOUT STYLES */
+section#personal {
+  display:grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr;
+}
+section#social {
+  display:grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+}
+@media screen and (min-width: 1080px) {
+  section#social {
+    grid-template-columns: 400px 1fr;
+  }
+}
