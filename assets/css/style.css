@@ -1,4 +1,6 @@
-/* header stuff*/
+html {background: radial-gradient(circle at top left, #f44242, #9df441);}
+
+/* HEADER STUFF */
 h1 {background: #f44242;
   color: brown;
   font-size: 32px;}
@@ -7,7 +9,7 @@ h1 {
   margin-bottom: 15px;
 }
 
-/* BASIC STYLES FOR PROTOTYPING */
+/* BASIC SHAPES FOR ALL 4 DIVS */
 section#intro div,
 section#body div,
 section#personal div,
@@ -15,29 +17,36 @@ section#conclusion div{
   min-height: 250px;
   margin-bottom: 15px;
 }
+
+/* INTRO COLORS + FONT */
 section#intro div {
   background: #f49d41;
   color: brown;
   font-size: 32px;
 }
+
+/* BODY COLORS + FONT */
 section#body div {
   background: #f4dc41;
   color: brown;
   font-size: 32px;
 }
+
+/* PERSONAL COLORS + FONT */
 section#personal div {
   background: #9df441;
   color: brown;
   font-size: 32px;
 }
 
+/* CONCLUSION COLORS + FONT */
 section#conclusion div {
   background: #41f1f4;
   color: brown;
   font-size: 32px;
 }
 
-/* GRID/LAYOUT STYLES */
+/* GRID/LAYOUT */
 section#intro {
   display:grid;
   grid-gap: 15px;
@@ -59,8 +68,4 @@ section#conclusion {
   grid-gap: 20px;
   grid-template-columns: 1fr
 
-/* @media screen and (min-width: 1080px) { */
-/*   section#personal { */
-/*     grid-template-columns: 400px 1fr; */
-  }
-}
+/* @media screen and (min-width: 1080px)
