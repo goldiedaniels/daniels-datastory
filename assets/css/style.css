@@ -1,7 +1,10 @@
-html {background: radial-gradient(circle at top left, #f44242, #9df441);}
+html {
+  /*background: radial-gradient(circle at top left, #f44242, #9df441);*/
+  background: #e5ffee;
+}
 
 /* HEADER STUFF */
-h1 {background: #f44242;
+h1 {background: #a2f799;
   color: brown;
   font-size: 32px;}
 h1 {
@@ -20,28 +23,28 @@ section#conclusion div{
 
 /* INTRO COLORS + FONT */
 section#intro div {
-  background: #f49d41;
+  background: #99f7ef;
   color: brown;
   font-size: 32px;
 }
 
 /* BODY COLORS + FONT */
 section#body div {
-  background: #f4dc41;
+  background: #a2f799;
   color: brown;
   font-size: 32px;
 }
 
 /* PERSONAL COLORS + FONT */
 section#personal div {
-  background: #9df441;
+  background: #99f7ef;
   color: brown;
   font-size: 32px;
 }
 
 /* CONCLUSION COLORS + FONT */
 section#conclusion div {
-  background: #41f1f4;
+  background: #a2f799;
   color: brown;
   font-size: 32px;
 }
