@@ -1,15 +1,15 @@
-html {
-  /*background: radial-gradient(circle at top left, #f44242, #9df441);*/
-  background: #e5ffee;
-}
-
 /* HEADER STUFF */
-h1 {background: #a2f799;
-  color: brown;
+h1 {background: #f4b5e0;
+  color: black;
   font-size: 32px;}
 h1 {
-  min-height: 250px;
+  min-height: 100px;
   margin-bottom: 15px;
+}
+h1 {
+font-family: 'Metamorphous', sans-serif;
+font-weight:normal;
+font-style:normal;
 }
 
 /* BASIC SHAPES FOR ALL 4 DIVS */
@@ -23,30 +23,30 @@ section#conclusion div{
 
 /* INTRO COLORS + FONT */
 section#intro div {
-  background: #99f7ef;
-  color: brown;
-  font-size: 32px;
+  background: #b5ecf4;
+  color: black;
+  font-size: 20px;
 }
 
 /* BODY COLORS + FONT */
 section#body div {
-  background: #a2f799;
-  color: brown;
-  font-size: 32px;
+  background: #f4b5e0;
+  color: black;
+  font-size: 20px;
 }
 
 /* PERSONAL COLORS + FONT */
 section#personal div {
-  background: #99f7ef;
-  color: brown;
-  font-size: 32px;
+  background: #b5ecf4;
+  color: black;
+  font-size: 20px;
 }
 
 /* CONCLUSION COLORS + FONT */
 section#conclusion div {
-  background: #a2f799;
-  color: brown;
-  font-size: 32px;
+  background: #f4b5e0;
+  color: black;
+  font-size: 20px;
 }
 
 /* GRID/LAYOUT */
