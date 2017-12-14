@@ -19,6 +19,18 @@ section#personal div,
 section#conclusion div{
   min-height: 250px;
   margin-bottom: 15px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+section#video-container{
+  min-height: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
 }
 
 /* INTRO COLORS + FONT */
@@ -71,5 +83,5 @@ section#conclusion {
   display:grid;
   grid-gap: 20px;
   grid-template-columns: 1fr
-
+}
 /* @media screen and (min-width: 1080px)*/
