@@ -1,19 +1,19 @@
 /* HEADER STUFF */
 h1 {background: #f4b5e0;
   color: black;
-  font-size: 32px;}
+  font-size: 50px;}
 h1 {
   min-height: 100px;
   margin-bottom: 15px;
 }
-
+/* Font Families*/
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: 'TerminalDosis', Times, serif;}
+p {font-family: 'TerminalDosis', Times, sans-serif;}
 
-/* BASIC SHAPES FOR ALL 4 DIVS */
+/* BLOCK ELEMENTS FOR ALL 4 DIVS*/
 section#intro div,
 section#body div,
 section#personal div,
@@ -25,6 +25,8 @@ section#conclusion div{
   padding-bottom: 20px;
   padding-left: 30px;
 }
+
+/* VIDEO*/
 section#video-container{
   min-height: 0px;
   margin-bottom: 0px;
@@ -34,28 +36,28 @@ section#video-container{
   padding-left: 0px;
 }
 
-/* INTRO COLORS + FONT */
+/* INTRO STYLE */
 section#intro div {
   background: #b5ecf4;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-/* BODY COLORS + FONT */
+/* BODY STYLE */
 section#body div {
   background: #f4b5e0;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-/* PERSONAL COLORS + FONT */
+/* PERSONAL STYLE */
 section#personal div {
   background: #b5ecf4;
   color: black;
-  font-size: 20px;
+  font-size: 18px;
 }
 
-/* CONCLUSION COLORS + FONT */
+/* CONCLUSION STYLE*/
 section#conclusion div {
   background: #f4b5e0;
   color: black;
