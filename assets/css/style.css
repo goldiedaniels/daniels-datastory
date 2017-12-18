@@ -9,7 +9,8 @@ h1 {
 /* Font Families*/
 h1,
 h2,
-h3 {
+h3
+ {
   font-family: 'TerminalDosis', Times, serif;}
 p {font-family: 'TerminalDosis', Times, sans-serif;}
 
